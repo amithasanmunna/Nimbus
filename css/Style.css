@@ -1,0 +1,324 @@
+/* All Common Css Part Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common Css Part End  */
+
+/* Header Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: #c7b299;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    
+    background: url(../Images/Banner\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bannerOverly{
+    padding: 380px 0;
+    background: rgba(17, 17, 17, 0.70);
+}
+
+.banner_text h3{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.banner_text h1{
+    padding-top: 14px;
+    padding-bottom: 19px;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0;
+}
+.banner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding: 19px 0;
+}
+.banner_text a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif; 
+    padding: 21px 37px 18px 37px;
+    border-bottom: 3px solid #736357;
+    background: #998675;
+    border-radius: 5px;
+    color: #fff;
+}
+/* Banner Part End */
+
+/* Service Part Start */
+#servicePart{
+   padding: 80px 0;
+}
+.service_item i{
+    font-size: 50px;
+    color: #555555;
+    transition: .4s;
+}
+.service_item h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+.service_item p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    line-height: 24px;
+    position: relative;
+    transition: .4s;
+}
+.service_item p::after{
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #f1eee9;
+    content: "";
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.service_item:hover i{
+    color: #c7b299;
+    
+}
+.service_item:hover h3{
+    color: #c7b299;
+}
+   
+.service_item:hover p::after{
+    background:  #c7b299;
+    transition: .4s;
+    width: 70px;
+}
+/* Service Part End */
+
+/* Idea Part Start */
+#ideaPart{
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+.idea_text h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    padding-bottom: 25px;
+}
+.idea_text p{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    line-height: 28px;
+    padding: 0 303px;
+}
+.idea_img{
+    margin-top: 40px;
+}
+.idea_img img {
+    width: 100%;
+}
+/* Idea Part End */
+
+/* Purchase Part Start */
+#purchasePart{
+    padding: 50px 0px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+.purchase_left h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.purchase_left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
+    
+}
+.purchase_left span{
+    color: #c7b299;
+}
+
+.purchase_btn a{
+    padding: 19px 28px 17px 28px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+/* Purchase Part End */
+
+/* Headline Part Start */
+#headlinePart{
+    padding: 40px 0px;
+}
+.headline_text{
+    text-align: center;
+}
+.headline_text h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 28px;
+    color: #555555;
+}
+.headline_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px; 
+    color: #8c8c8c;
+    line-height: 26px;  
+}
+/* headline Part end */
+
+/* Portfolio Part Start */
+#portfolioPart{
+    padding: 20px 0;
+}
+
+.portfolio_btn button{
+    padding: 10px 17px;
+    background: transparent;
+    border: 1px solid #ebebeb;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10px;
+    transition: .4s;
+}
+.portfolio_btn button:hover{
+    background: #998675;
+    color: #fff;
+    border: 1px solid #998675;
+}
+.portfolio_item_text{
+    padding: 30px;
+    background: #fbfaf8;
+}
+.portfolio_image{
+ position: relative;
+}   
+.portfolio_image img{
+    width: 100%;
+}
+.shape{
+    background: #fbfaf8;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    transform: rotate(45deg);
+    
+}
+.portfolio_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 27, 25, 0.7);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio_item_text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c7b299;
+    padding-bottom: 10px;
+}
+.portfolio_item_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+.portfolio_item:hover .portfolio_overly{
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio_item:hover .shape{
+    background: #362f2d;
+}
+.portfolio_item:hover .portfolio_item_text{
+    background: #362f2d;
+}
+/* Portfolio Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
